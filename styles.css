@@ -1,0 +1,99 @@
+/* Добавление шрифта из Google Fonts (пример): */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgb(253, 241, 224);
+    color: maroon;
+    font-size: 16px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #ffdec4; 
+    padding: 1rem 0; /* Вертикальный отступ */
+    box-shadow: 0 2px 4px rgba(252, 197, 160, 0.1); /* Тень для глубины */
+  }
+  
+  .nav-link {
+    color: #42484d; /* Темно-серый цвет текста */
+    font-weight: 500; /* Увеличение толщины шрифта */
+    padding: 10px; /* Увеличение отступов */
+    border-radius: 5px; /* Скругленные углы */
+    width: 120px;
+  }
+  
+  .nav-link:hover {
+    background-color: #ffd493; /* фон при наведении */
+  }
+  
+  .nav-link.active {
+    background-color: #cb2a3d; /*  фон активной ссылки */
+    color: rgb(0, 0, 0); /*  текст активной ссылки */
+  }
+  
+  .navbar-toggler-icon {
+      font-size: 1.2rem; /* Увеличение размера иконки */
+  }
+  
+  
+  .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .btn-success {
+    background-color: rgb(255, 156, 120);
+    border-color: rgb(255, 156, 120);
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px rgb(255, 108, 108);
+    width: 40%;
+    height: 15%;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .btn-success:hover {
+    background-color: bisque;
+    border-color:bisque ;
+  }
+
+  
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

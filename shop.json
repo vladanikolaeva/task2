@@ -1,0 +1,66 @@
+[
+    {
+      "id": "1",
+      "title": "Нескользящий коврик для йоги",
+      "vendor_code": "111",
+      "description": "Комфортная йога",
+      "price": 3500,
+      "img": "https://avatars.mds.yandex.net/i?id=a6a707767b7792d05e427c4f73d18f27_l-10661409-images-thumbs&n=13"
+    },
+    {
+      "id": "2",
+      "title": "Доска с гвоздями Садху",
+      "vendor_code": "222",
+      "description": "Древняя практика самоисцеления",
+      "price": 7500,
+      "img": "https://cdn1.ozone.ru/s3/multimedia-z/6206089775.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Подушка для медитации",
+      "vendor_code": "333",
+      "description": "Приятная медитация",
+      "price": 1350,
+      "img": "https://cdn1.ozone.ru/s3/multimedia-a/6638155786.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Опорный блок",
+      "vendor_code": "4445e",
+      "description": "Новые высоты в йоге",
+      "price": 690,
+      "img": "https://cdn1.ozone.ru/s3/multimedia-x/c600/6028376601.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Фитнес резинка",
+        "vendor_code": "4446e",
+        "description": "Разнообразие тренировок",
+        "price": 900,
+        "img": "https://cdn1.ozone.ru/s3/multimedia-8/c600/6451519280.jpg"
+      },
+      {
+        "id": "6",
+        "title": "Эспандер кистевой",
+        "vendor_code": "4447e",
+        "description": "Укрепление кистей и предплечий",
+        "price": 70,
+        "img": "https://cdn1.ozone.ru/s3/multimedia-a/c600/6094971682.jpg"
+      },
+      {
+        "id": "7",
+        "title": "Болстер",
+        "vendor_code": "4448e",
+        "description": "Удобство в йоге",
+        "price": 990,
+        "img": "https://www.domsporta.com/upload/iblock/d63/6e81c7b3-c980-11e9-8192-00155d00f103_9253d153-ce2a-11e9-8192-00155d00f103.jpeg"
+      },
+      {
+        "id": "8",
+        "title": "Йога колесо",
+        "vendor_code": "444e",
+        "description": "Гибкость позвоночника",
+        "price": 5490,
+        "img": "https://cdn1.ozone.ru/s3/multimedia-m/c600/6011644150.jpg"
+      }
+]
