@@ -30,7 +30,7 @@ async function getResponce() {
               <h5 class="card-title" style="color: black;">${content[key].title}</h5>
               <p class="card-text" style="color: black;">${content[key].description}. Цена ${content[key].price} р.</p>
               <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}>
-              <p class="card-text" >Заказать <input class="w-25" type="number" value="0" name="check" min="1" max="100" required></p>
+              <p class="card-text" >Заказать <input class="w-25" type="number" value="0" name="check" min="0" max="100" required></p>
               </li>
                       `
           }
@@ -68,7 +68,7 @@ async function getResponce1() {
               <h5 class="card-title" style="color: black;">${content[key].title}</h5>
               <p class="card-text" style="color: black;">${content[key].description}. Цена ${content[key].price} р.</p>
               <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}>
-              <p class="card-text" >Заказать <input class="w-25" type="checkbox" name="check" value="0" onClick='this.value = this.checked ? 1 : 0'></p>
+              <p class="card-text" >Заказать <input class="w-25" type="checkbox" name="check" value="0"  onClick='this.value = this.checked ? 1 : 0'></p>
               </li>
                       `
           }
