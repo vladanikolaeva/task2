@@ -18,13 +18,8 @@ async function getResponce() {
   console.log(content)
   content = JSON.parse(content)
   content = content.splice(0, 8)
-  //content.sort()
   console.log(content)
   let key
-  /*for (key in content) {
-      console.log(content[key].id, content[key].title)
-      console.log(content[key])
-  }*/
   content_price=content.sort((a, b) => a.price - b.price);
 
   let node_for_insert = document.getElementById("node_for_insert")
@@ -49,15 +44,8 @@ async function getResponce1() {
   console.log(content)
   content = JSON.parse(content)
   content = content.splice(0, 8)
-  //content.sort()
   console.log(content)
   let key
-  /*for (key in content) {
-      console.log(content[key].id, content[key].title)
-      console.log(content[key])
-  }*/
-
-  // sort by name
   content_title=content.sort((a, b) => {
   const nameA = a.title.toUpperCase(); // ignore upper and lowercase
   const nameB = b.title.toUpperCase(); // ignore upper and lowercase
@@ -68,11 +56,11 @@ async function getResponce1() {
       return 1;
     }
 
-    // names must be equal
+   
     return 0;
   });
 
-  //node_for_insert.innerHTML='';
+ 
   let node_for_insert = document.getElementById("node_for_insert")
   for (key in content_title) {
               node_for_insert.innerHTML += `
