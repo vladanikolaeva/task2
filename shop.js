@@ -46,8 +46,8 @@ async function getResponce1() {
   console.log(content)
   let key
   content_title=content.sort((a, b) => {
-  const nameA = a.title.toUpperCase(); // ignore upper and lowercase
-  const nameB = b.title.toUpperCase(); // ignore upper and lowercase
+  const nameA = a.title.toUpperCase(); 
+  const nameB = b.title.toUpperCase(); 
     if (nameA < nameB) {
       return -1;
     }
