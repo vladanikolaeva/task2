@@ -23,7 +23,6 @@ async function getResponce() {
   content_price=content.sort((a, b) => a.price - b.price);
 
   let node_for_insert = document.getElementById("node_for_insert")
-  //node_for_insert.innerHTML='';
   for (key in content_price) {
               node_for_insert.innerHTML += `
               <li style="width: 310px" class="d-flex flex-column m-1 p-1 border bg-body">
