@@ -25,7 +25,7 @@ async function getResponce() {
   let node_for_insert = document.getElementById("node_for_insert")
   for (key in content_price) {
               node_for_insert.innerHTML += `
-              <li style="width: 310px" class="d-flex flex-column m-1 p-1 border bg-info">
+              <li style="width: 310px" class="d-flex flex-column m-1 p-1 border bg-body">
               <img style="width: 180px" class="align-self-center" src=${content[key].img}>
               <h5 class="card-title" style="color: black;">${content[key].title}</h5>
               <p class="card-text" style="color: black;">${content[key].description}. Цена ${content[key].price} р.</p>
@@ -63,7 +63,7 @@ async function getResponce1() {
   let node_for_insert = document.getElementById("node_for_insert")
   for (key in content_title) {
               node_for_insert.innerHTML += `
-              <li style="width: 310px" class="d-flex flex-column m-1 p-1 border bg-info">
+              <li style="width: 310px" class="d-flex flex-column m-1 p-1 border bg-body">
               <img style="width: 180px" class="align-self-center" src=${content[key].img}>
               <h5 class="card-title" style="color: black;">${content[key].title}</h5>
               <p class="card-text" style="color: black;">${content[key].description}. Цена ${content[key].price} р.</p>
